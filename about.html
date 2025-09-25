@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Tech Development Studio – our story, philosophy and process of building accessible websites for small businesses.">
+  <title>About Us | Tech Development Studio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav role="navigation">
+    <div class="logo">TechDev</div>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About hero section -->
+  <header class="hero" style="height: 60vh; background-image: url('images/hero.png');" aria-label="About page hero">
+    <div class="hero-content">
+      <h1>About Us</h1>
+      <p>Get to know the people and principles behind Tech Development Studio.</p>
+    </div>
+  </header>
+
+  <!-- Story section -->
+  <section id="story">
+    <div class="section-heading">
+      <h2>Our Story</h2>
+    </div>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/code.png" alt="Abstract illustration representing code and development">
+      </div>
+      <div class="about-text">
+        <h3>Rooted in craftsmanship</h3>
+        <p>Founded by developers with a passion for design, Tech Development Studio began with a simple goal: make high‑quality web experiences accessible to everyone. We saw too many small businesses struggle with templates that lacked personality or professionalism. Our studio bridges that gap by offering handcrafted sites at a scale and cost that make sense for growing ventures.</p>
+        <p>We follow industry best practices at every step: clear navigation and responsive layouts to help users get where they’re going, consistent branding for a cohesive feel and efficient code for fast load times. Accessibility isn’t an afterthought but a core part of our process, ensuring that our sites can be used by everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy and values section -->
+  <section id="philosophy">
+    <div class="section-heading">
+      <h2>Our Philosophy</h2>
+      <p>We build websites that are inclusive and thoughtful. Our work is guided by the principles of the Web Content Accessibility Guidelines (WCAG), focusing on perceivable, operable, understandable and robust experiences.</p>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <!-- code icon -->
+        <div style="margin-bottom: 1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h3>Craftsmanship</h3>
+        <p>We pay attention to the details that make a site fast, beautiful and maintainable. Clean code and thoughtful interactions are at the heart of everything we build.</p>
+      </div>
+      <div class="card">
+        <!-- target icon -->
+        <div style="margin-bottom: 1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <h3>Purpose</h3>
+        <p>Every project starts with understanding your goals. We design with intention to ensure your site communicates clearly and helps your business grow.</p>
+      </div>
+      <div class="card">
+        <!-- users icon -->
+        <div style="margin-bottom: 1rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>People</h3>
+        <p>Websites are for humans. We design experiences that are easy to use, intuitive and accessible for everyone, regardless of ability or device.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process section -->
+  <section id="process">
+    <div class="section-heading">
+      <h2>Our Process</h2>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <h3>1. Discover</h3>
+        <p>We learn about your business, goals and audience. This research informs the project’s direction and ensures alignment with your needs.</p>
+      </div>
+      <div class="card">
+        <h3>2. Design</h3>
+        <p>We create wireframes and visual designs that reflect your brand. Accessibility and responsiveness guide our decisions at every step.</p>
+      </div>
+      <div class="card">
+        <h3>3. Develop & Launch</h3>
+        <p>Our developers bring the design to life with clean code. After thorough testing for performance and accessibility, we launch your site to the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="mailto:info@techdevstudio.com" aria-label="Send an email">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+    </div>
+    <p>&copy; <span id="year"></span> Tech Development Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
